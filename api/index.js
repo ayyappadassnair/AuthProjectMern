@@ -23,4 +23,4 @@ app.listen(3000,()=>{
 })
 
 app.use('/api/user',userRoutes)
-app.use('/auth',authRouter)
+app.use('/api/auth',authRouter)
